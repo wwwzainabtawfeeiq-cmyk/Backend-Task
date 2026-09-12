@@ -1,0 +1,16 @@
+{
+  "name": "auth-module",
+  "version": "1.0.0",
+  "description": "Authentication & RBAC module for Real Estate Platform",
+  "main": "auth-module.js",
+  "scripts": {
+    "start": "node auth-module.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

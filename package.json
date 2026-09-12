@@ -1,0 +1,29 @@
+{
+  "name": "backend-task",
+  "version": "1.0.0",
+  "description": "Real Estate Platform Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "db:setup": "node database/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwzainabtawfeeiq-cmyk/Backend-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "pg": "^8.23.0"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}

@@ -64,6 +64,8 @@ async function verifyPassword(password, stored) {
   } catch (err) {
     return false;
   }
+}
+
 function verifyToken(token) {
   const segments = token.split('.');
 
@@ -2190,7 +2192,3 @@ async function bootstrap() {
 bootstrap();
 
 
-
-
-
-}
